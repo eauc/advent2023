@@ -20,7 +20,7 @@ iex> recompile()
 OR
 
 ```sh
-$ mix eval Day01.Day01.run
+$ mix run -e "Day01.Day01.run()"
 ```
 
 ## Run tests
