@@ -25,8 +25,9 @@ defmodule Advent2023.MixProject do
   defp deps do
     [
       {:memoize, "~> 1.4"},
+      {:heap, "~> 3.0"},
       {:mix_test_watch, "~> 1.0", only: [:dev, :test], runtime: false},
-      {:ex_doc, "~> 0.34", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.34", only: :dev, runtime: false},
     ]
   end
 end
